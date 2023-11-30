@@ -1,4 +1,5 @@
 require 'ipaddress/prefix'
+require 'ipaddress/extensions'
 
 module IPAddress;
   #
@@ -63,6 +64,7 @@ module IPAddress;
     include IPAddress
     include Enumerable
     include Comparable
+    include Extensions
 
 
     #
