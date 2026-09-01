@@ -1,6 +1,23 @@
 Changelog
 =========
 
+## 1.0.0 - 2026-09-01
+
+### Changed
+- Adopted and maintained by [kuy.io](https://kuy.io)
+- Bumped minimum Ruby version to 3.3
+- Upgraded Bundler to 2.x, Rake to 13.x
+- Modernized gemspec (dynamic file list, metadata links)
+- Replaced Travis CI with GitHub Actions
+- Removed Jeweler, CodeClimate, and rock build tooling
+- Cleaned up duplicate method definitions and tests
+
+### Added
+- `overlaps?` — check if two networks overlap
+- `subnet_of?` — check if a network is a subnet of another
+- `address_exclude` — compute the set difference of two networks
+
+
 ## 0.8.3 - 2016-02-17
 
 ### Added
