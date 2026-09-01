@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.metadata = {
     "source_code_uri" => s.homepage,
-    "changelog_uri" => "#{s.homepage}/blob/master/CHANGELOG.md",
+    "changelog_uri" => "#{s.homepage}/blob/main/CHANGELOG.md",
     "bug_tracker_uri" => "#{s.homepage}/issues"
   }
 
