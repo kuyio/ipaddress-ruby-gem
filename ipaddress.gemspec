@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "bug_tracker_uri" => "#{s.homepage}/issues"
   }
 
-  s.files = Dir["lib/**/*.rb", "LICENSE.txt", "README.md"]
+  s.files = Dir["lib/**/*.rb", "LICENSE"]
 
   s.add_development_dependency "bundler", ">= 2.0"
   s.add_development_dependency "rake", ">= 13.0"
