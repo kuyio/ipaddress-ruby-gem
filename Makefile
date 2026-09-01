@@ -1,5 +1,5 @@
 GEM_NAME = ipaddress
-GEM_VERSION = $(shell cat VERSION)
+GEM_VERSION = $(shell ruby -r ./lib/ipaddress/version -e 'puts Ipaddress::VERSION')
 GEM_FILE = $(GEM_NAME)-$(GEM_VERSION).gem
 
 .DEFAULT: test
